@@ -8,6 +8,6 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         NumberMethods numberMethods = new NumberMethods();
-        numberMethods.executeMenu(scanner);
+        numberMethods.requestNumber(scanner);
     }
 }
